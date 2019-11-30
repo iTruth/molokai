@@ -44,12 +44,12 @@ hi DiffDelete      guifg=#960050 guibg=#1E0010
 hi DiffText                      guibg=#4C4745 gui=italic,bold
 
 hi Directory       guifg=#A6E22E               gui=bold
-hi Error           guifg=#E6DB74 guibg=#1E0010
-hi ErrorMsg        guifg=#F92672 guibg=#232526 gui=bold
+hi Error           guifg=#FF0000 guibg=#1E0010 gui=none
+hi ErrorMsg        guifg=#F92672 guibg=#232526 gui=none
 hi Exception       guifg=#A6E22E               gui=bold
 hi Float           guifg=#AE81FF
-hi FoldColumn      guifg=#465457 guibg=#000000
-hi Folded          guifg=#465457 guibg=#000000
+hi FoldColumn      guifg=#242424 guibg=#808080
+hi Folded          guifg=#242424 guibg=#808080
 hi Function        guifg=#A6E22E
 hi Identifier      guifg=#FD971F
 hi Ignore          guifg=#808080 guibg=bg
@@ -60,7 +60,7 @@ hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#C4BE89               gui=italic
 hi SpecialKey      guifg=#66D9EF               gui=italic
 
-hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
+hi MatchParen      guifg=#000000 guibg=#729C9A gui=bold
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
@@ -75,9 +75,9 @@ hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
-hi Search          guifg=#000000 guibg=#FFE792
+hi Search          guifg=#000000 guibg=#FF9D9D
 " marks
-hi SignColumn      guifg=#A6E22E guibg=#232526
+hi SignColumn      guifg=#A6E22E guibg=#494241
 hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#7E8E91               gui=bold
 hi Special         guifg=#66D9EF guibg=bg      gui=italic
@@ -93,14 +93,14 @@ hi StatusLineNC    guifg=#808080 guibg=#080808
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
-hi Title           guifg=#ef5939
-hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
+hi Title           guifg=#EF5939
+hi Todo            guifg=#FFFF00 guibg=bg
 
 hi Typedef         guifg=#66D9EF
 hi Type            guifg=#66D9EF               gui=none
 hi Underlined      guifg=#808080               gui=underline
 
-hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
+hi VertSplit       guifg=#000000 guibg=#836767 gui=none
 hi VisualNOS                     guibg=#403D3D
 hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
@@ -113,22 +113,22 @@ if s:molokai_original == 1
    hi Normal          guifg=#F8F8F2 guibg=#272822
    hi Comment         guifg=#75715E
    hi CursorLine                    guibg=#3E3D32
-   hi CursorLineNr    guifg=#FD971F               gui=none
+   hi CursorLineNr    guifg=#DEDEDE               gui=bold
    hi CursorColumn                  guibg=#3E3D32
    hi ColorColumn                   guibg=#3B3A32
    hi LineNr          guifg=#BCBCBC guibg=#3B3A32
    hi NonText         guifg=#75715E
-   hi SpecialKey      guifg=#75715E
+   hi SpecialKey      guifg=#B8AC75
 else
    hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
    hi Comment         guifg=#7E8E91
    hi CursorLine                    guibg=#293739
-   hi CursorLineNr    guifg=#FD971F               gui=none
+   hi CursorLineNr    guifg=#DEDEDE               gui=bold
    hi CursorColumn                  guibg=#293739
    hi ColorColumn                   guibg=#232526
-   hi LineNr          guifg=#465457 guibg=#232526
+   hi LineNr          guifg=#91adb3 guibg=#232526
    hi NonText         guifg=#465457
-   hi SpecialKey      guifg=#465457
+   hi SpecialKey      guifg=#79AEB9
 end
 
 "
@@ -161,8 +161,8 @@ if &t_Co > 255
    hi DiffText                    ctermbg=102 cterm=bold
 
    hi Directory       ctermfg=118               cterm=bold
-   hi Error           ctermfg=219 ctermbg=89
-   hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
+   hi Error           ctermfg=219 ctermbg=89	cterm=none
+   hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=none
    hi Exception       ctermfg=118               cterm=bold
    hi Float           ctermfg=135
    hi FoldColumn      ctermfg=67  ctermbg=16
