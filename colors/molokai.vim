@@ -1,11 +1,10 @@
 " Vim color file
 "
-" Author: Tomas Restrepo <tomas@winterdom.com>
-" https://github.com/tomasr/molokai
+" Author: Truth <itruth319@qq.com>
+" https://github.com/iTruth/molokai
 "
-" Note: Based on the Monokai theme for TextMate
-" by Wimer Hazenberg and its darker variant
-" by Hamish Stuart Macpherson
+" Original author: Tomas Restrepo <tomas@winterdom.com>
+" https://github.com/tomasr/molokai
 "
 
 hi clear
